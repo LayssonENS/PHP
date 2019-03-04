@@ -5,11 +5,11 @@ class Vendedor extends Pessoa
 {
     private $salario;
 
-    public function __construct($id = null, $nome = "", $endereco = "", $telefone = "", $salario = "")
-    {
-        parent::__construct($id, $nome, $endereco, $telefone);
-        $this->salario = $salario;
-    }
+    //public function __construct($id = null, $nome = "", $endereco = "", $telefone = "", $salario = "")
+   // {
+   //     parent::__construct($id, $nome, $endereco, $telefone);
+  //      $this->salario = $salario;
+  //  }
 
     //salario GETTER E SETTER
     public function getSalario()
